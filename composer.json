@@ -1,0 +1,29 @@
+{
+    "name": "nayon/roll-your-webt-task",
+    "autoload": {
+        "psr-4": {
+            "Nekonyx\\RYWT\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nekonyx13",
+            "email": "corvin.prath@gmail.com"
+        }
+    ],
+    "require": {
+        "typo3fluid/fluid": "^2.7",
+        "fluidtypo3/vhs": "^6.1",
+        "doctrine/orm": "^2.12",
+        "doctrine/dbal": "2.13.9"
+    },
+    "config": {
+        "allow-plugins": {
+            "typo3/cms-composer-installers": true,
+            "typo3/class-alias-loader": true
+        }
+    },
+    "require-dev": {
+        "doctrine/data-fixtures": "^1.5"
+    }
+}
